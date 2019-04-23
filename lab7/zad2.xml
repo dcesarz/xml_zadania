@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osoby>
+<osoba pesel="a" NIP="as">
+	<adres>
+	<miejsce>d</miejsce>
+	<ulica>dd</ulica>
+	<numer>de</numer>
+	<kod>44444</kod>
+	</adres>
+</osoba>
+</osoby>

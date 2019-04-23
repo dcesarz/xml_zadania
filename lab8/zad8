@@ -1,0 +1,3 @@
+//osoba[position()=last()]/*[self::imie or self::nazwisko]
+
+

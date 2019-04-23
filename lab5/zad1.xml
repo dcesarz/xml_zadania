@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pracownik>
+<imie>Jan</imie>
+<nazwisko>Kowalski</nazwisko>
+<wiek>19</wiek>
+<dataurodzenia>01.01.2000</dataurodzenia>
+<pensja>3000</pensja>
+</pracownik>

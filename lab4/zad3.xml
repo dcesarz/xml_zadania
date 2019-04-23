@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE osoby SYSTEM "zad3.dtd">
+
+<osoby>
+<student plec="k" pesel="344545543">
+<imie>
+Anna
+</imie>
+<nazwisko>
+Nowak
+</nazwisko>
+<data_urodzenia>
+02.05.1997
+</data_urodzenia>
+</student>
+</osoby>
+
+

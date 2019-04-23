@@ -1,0 +1,1 @@
+//osoba[contains(adres/kod-pocztowy/text(),8)]/@id

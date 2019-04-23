@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='ISO-8859-2'?>
+<szkola>
+	<uczniowie>
+	<osoba plec='m'>
+	<imie>Jan</imie>
+	<nazwisko>Król</nazwisko>
+	<wiek>12</wiek>
+	<dataurodzenia>16.04.2006</dataurodzenia>
+	</osoba>
+	<osoba plec='f'>
+	<imie>Joanna</imie>
+	<nazwisko>Król</nazwisko>
+	<wiek>12</wiek>
+	<dataurodzenia>16.04.2006</dataurodzenia>
+	</osoba>
+	</uczniowie>
+	
+	<nauczyciele>
+	<osoba plec='f'>
+	<imie>Magda</imie>
+	<nazwisko>Nowak</nazwisko>
+	<wiek>40</wiek>
+	<dataurodzenia>11.11.1979</dataurodzenia>
+	<stanowisko>Nauczyciel chemii</stanowisko>
+	</osoba>
+	<osoba plec='m'>
+	<imie>Piotr</imie>
+	<nazwisko>Kamiński</nazwisko>
+	<wiek>30</wiek>
+	<dataurodzenia>1.11.1989</dataurodzenia>
+	<stanowisko>Nauczyciel fizyki</stanowisko>
+	</osoba>
+	</nauczyciele>
+	
+	<pozostali>
+	<szkolnyzwierzak gatunek="pies">
+	<imie>Burek</imie>
+	<wiek>5</wiek>
+	</szkolnyzwierzak>	
+	<szkolnyzwierzak gatunek="królik">
+	<imie>Pączuś</imie>
+	<wiek>2</wiek>
+	</szkolnyzwierzak>	
+	</pozostali>
+</szkola>

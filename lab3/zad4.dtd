@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT nauka (rodzaje,rzeczowniki*)>
+<!ELEMENT rodzaje (rodzaj,rodzaj,rodzaj)>
+<!ELEMENT rzeczowniki (nazwa,synonimy*)>
+<!ATTLIST nauka>
+<!ATTLIST rodzaj skrot ID #REQUIRED>
+<!ATTLIST rzeczowniki skrot IDREF #REQUIRED>
+

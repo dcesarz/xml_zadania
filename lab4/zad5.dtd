@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT osoba (imie,nazwisko,status)>
+<!ENTITY osoba1 SYSTEM "Osoba1.ent">
+<!ENTITY osoba2 SYSTEM "Osoba2.ent">
+<!ENTITY osoba3 SYSTEM "Osoba3.ent">

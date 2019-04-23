@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd=
+"http://www.w3.org/2001/XMLSchema">
+<xsd:element name="kolor">
+		<xsd:complexType>
+			<xsd:sequence>
+			<xsd:simpleType name="czerwony"/>
+				<xsd:restriction base="xsd:int"/>
+					<xsd:minExclusive value="0"/>
+					<xsd:maxExclusive value="255"/>
+				</xsd:restriction> 
+				</xsd:simpleType>
+			<xsd:simpleType name="zielony"/>
+				<xsd:restriction base="xsd:int"/>
+					<xsd:minExclusive value="0"/>
+					<xsd:maxExclusive value="255"/>
+				</xsd:restriction> 
+			</xsd:simpleType>
+			<xsd:simpleType name="niebieski"/>
+				<xsd:restriction base="xsd:int"/>
+					<xsd:minExclusive value="0"/>
+					<xsd:maxExclusive value="255"/>
+				</xsd:restriction> 
+			</xsd:simpleType>
+			</xsd:sequence>
+		</xsd:complexType>
+	
+</xsd:element>	

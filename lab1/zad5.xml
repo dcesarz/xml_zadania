@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='ISO-8859-2'?>
+<myszki>
+	<myszka id="0001" opis="brak">
+	
+	<danetechniczne>
+	
+	<typ>optyczna</typ>
+    <komzkom>przewodowa</komzkom>
+	<roz>4000 dpi</roz>
+	<typpodlaczenia>USB</typpodlaczenia>
+	<zasieg>1,6 m</zasieg>
+	<iloscprzyciskow>6</iloscprzyciskow>
+	<liczbarolek>1</liczbarolek>
+	<kolor>czarny</kolor>
+	</danetechniczne>
+	
+	<gwarancja>
+	<okres miara="miesiace">24</okres>
+	<kodprod>TRAMYS46085</kodprod>
+	</gwarancja>
+	
+	<producent>
+	<nazwa>Megabajt Sp. z o.o </nazwa>
+	</producent>
+	
+	
+	</myszka>
+	
+	
+</myszki>

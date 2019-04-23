@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='ISO-8859-2'?>
+<!ELEMENT glowny1 (podrzedny,podrzedny,podrzedny,podrzedny,podrzedny)>
+<!ATTLIST glowny1 atrubut1 ID #REQUIRED>
+<!ELEMENT glowny2 (podrzedny,podrzedny,podrzedny,podrzedny,podrzedny)>
+<!ATTLIST glowny2 atrybut2 CDATA #IMPLIED #FIXED "cos">
+<!ELEMENT glowny3 (podrzedny,podrzedny,podrzedny,podrzedny,podrzedny)>
+<!ATTLIST glowny3 atrybut3 ("w1"|"w2"|"w3") "w1">

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE osoby [
+<!ELEMENT osoba (imie,nazwisko,status)>
+<!ENTITY osoba1 SYSTEM "Osoba1.ent">
+<!ENTITY osoba2 SYSTEM "Osoba2.ent">
+<!ENTITY osoba3 SYSTEM "Osoba3.ent">
+>]
+<osoby>
+<osoba1>
+<imie>
+Jan
+</imie>	
+<nazwisko>
+Kowalski
+</nazwisko>
+<status>
+Online
+</status>
+</osoba1>
+
+<osoba2>
+<imie>
+Janek
+</imie>	
+<nazwisko>
+Kowal
+</nazwisko>
+<status>
+Online
+</status>
+</osoba2>
+
+<osoba3>
+<imie>
+Ania
+</imie>	
+<nazwisko>
+Walka
+</nazwisko>
+<status>
+Offline
+</status>
+</osoba3>
+</osoby>

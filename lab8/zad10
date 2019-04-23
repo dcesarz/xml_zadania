@@ -1,0 +1,2 @@
+sum(//osoba[@plec="m"]/wiek/text())
+

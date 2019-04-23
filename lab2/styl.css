@@ -1,0 +1,74 @@
+grupa{
+display: block;
+width:28%;
+font-family: Verdana, Arial;
+border: 1px solid black;
+padding:1%;
+margin:1%;
+float:left;
+background-color: #F0F8FF;
+}
+
+grupa>osoba
+{
+display:block;
+padding:5%;
+margin:5%;
+
+}
+
+grupa[nazwa='1']>osoba
+{
+background-color: #D8BFD8
+}
+
+grupa[nazwa='2']>osoba
+{
+background-color: #E8BFE8
+}
+grupa[nazwa='3']>osoba
+{
+background-color: #F8BFF8
+}
+osoba[plec='F']>nazwisko:after
+{
+content:url('oznK.png');
+}
+osoba[plec='M']>nazwisko:after
+{
+content:url('oznM.png');
+}
+grupa>osoba>imie
+{
+font-weight:bold;
+}
+nralbumu:before{
+content:"nr albumu: ";
+font-size: small
+}
+grupa>osoba>nazwisko
+{
+}
+grupa>osoba>nralbumu
+{
+display:block;
+font-size: small;
+}
+
+
+osoba[plec='F']:hover{
+    background-color: pink;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+osoba[plec='M']:hover{
+    background-color: cyan;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+
+

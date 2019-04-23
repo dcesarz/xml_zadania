@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='ISO-8859-2'?>
+<!ELEMENT glowny1 (podrzedny,podrzedny,podrzedny,podrzedny,podrzedny+)>
+<!ELEMENT glowny2 (pierwszy,pierwszy,pierwszy?,drugi,drugi,drugi?)>
+<!ELEMENT glowny3 (((parzysty,parzysty)*)|(nieparzysty,(nieparzysty,nieparzysty)*)>

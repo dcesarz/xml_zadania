@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='ISO-8859-2'?>
+<!DOCTYPE glowny SYSTEM "zad5.dtd">
+<glowny>
+	<dzial>
+		<pracownik plec='m' pesel='pesel' opis='bardzo fajny opis'>
+			<imie>
+				a
+			</imie>
+			<nazwisko>
+				a
+			</nazwisko>
+			<data_urodzenia>
+				a
+			</data_urodzenia>
+		</pracownik>
+	</dzial>
+<glowny>

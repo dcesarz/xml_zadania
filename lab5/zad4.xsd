@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd=
+"http://www.w3.org/2001/XMLSchema">
+<xsd:element name="szkola" type="pracownicy"/>
+<xsd:complexType name="pracownicy">
+<xsd:choice>
+	
+	<xsd:sequence>
+		<xsd:element name="nauczyciel" minOccurs="3" maxOccurs="3"/> 	
+	
+	</xsd:sequence>
+	<xsd:sequence>
+		<xsd:element name="wicedyrektor" minOccurs="2" maxOccurs="2"/> 
+		<xsd:element name="dyrektor"/> 
+	</xsd:sequence>
+</xsd:choice>
+</xsd:complexType>
+</xsd:element>
+
+
+</xsd:schema>

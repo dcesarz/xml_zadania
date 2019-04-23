@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+	<xsd:attributeGroup name="osobaAtrybut">
+		<xsd:attribute name="pesel" type="xsd:string" />
+		<xsd:attribute name="NIP" type="typNIP" />
+	</xsd:attributeGroup>
+	
+	<xsd:element name="adres">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="miejsce" type="xsd:string"/>
+				<xsd:element name="ulica" type="xsd:string"/>
+				<xsd:element name="numer" type="xsd:string"/>
+					<xsd:element name="kod">
+						<xsd:restriction base="xsd:string">
+							
+							<xsd:pattern value="[0-9]{6}"/>
+							
+						</xsd:restriction>
+					</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="osoby">
+		<xsd:complexType>
+			<xsd:element name="osoba">
+					<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element ref="osoba"/>
+							</xsd:sequence>
+					<xsd:attributeGroup ref="osobaAtrybut"/>
+					</xsd:complexType>
+				</xsd:element>
+		</xsd:complexType>
+		
+	</xsd:element>
+	
+	
+</xsd:schema>

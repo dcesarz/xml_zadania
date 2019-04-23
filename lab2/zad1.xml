@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='ISO-8859-2'?>
+<?xml-stylesheet type="text/css" href="styl.css" ?>
+<studenci>
+	<grupa nazwa='1'>
+				<osoba plec='F'>	
+				<imie>Patrycja</imie>
+				<nazwisko>Szymanska</nazwisko>
+				<nralbumu>234567</nralbumu>
+				</osoba>
+				<osoba plec='M'>
+				<imie>Egidiusz</imie>
+				<nazwisko>Chmielewski</nazwisko>
+				<nralbumu>567892</nralbumu>
+				</osoba>
+				<osoba plec='F'>
+				<imie>Maryla</imie>
+				<nazwisko>Zajac</nazwisko>
+				<nralbumu>456783</nralbumu>
+				</osoba>
+	</grupa>
+	<grupa nazwa='2'>
+					<osoba plec='M'>
+				<imie>Bozydar</imie>
+				<nazwisko>Krol</nazwisko>
+				<nralbumu>467893</nralbumu>
+				</osoba>
+						<osoba plec='F'>
+				<imie>Brygida</imie>
+				<nazwisko>Duda</nazwisko>
+				<nralbumu>235731</nralbumu>
+				</osoba>
+						<osoba plec='M'>
+				<imie>Swietopelk</imie>
+				<nazwisko>Tomaszewski</nazwisko>
+				<nralbumu>345622</nralbumu>
+				</osoba>
+	</grupa>
+	<grupa nazwa = '3'>
+						<osoba plec='M'>
+				<imie>Wlodek</imie>
+				<nazwisko>Kowalczyk</nazwisko>
+				<nralbumu>092452</nralbumu>
+				</osoba>
+						<osoba plec='M'>
+				<imie>Ireneusz</imie>
+				<nazwisko>Dudek</nazwisko>
+				<nralbumu>765147</nralbumu>
+				</osoba>
+						<osoba plec='M'>
+				<imie>Grzegorz</imie>
+				<nazwisko>Zielinski</nazwisko>
+				<nralbumu>974479</nralbumu>
+				</osoba>
+	</grupa>
+</studenci>
